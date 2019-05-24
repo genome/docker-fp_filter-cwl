@@ -6,7 +6,7 @@ LABEL \
 
 #get the fpfilter script
 WORKDIR /opt
-RUN wget --no-check-certificate https://raw.githubusercontent.com/genome/fpfilter-tool/v0.1.1/fpfilter.pl && \
+RUN wget --no-check-certificate https://raw.githubusercontent.com/genome/fpfilter-tool/1.0.1/fpfilter.pl && \
     cp fpfilter.pl /usr/bin/fpfilter.pl && \
     rm fpfilter.pl
 
